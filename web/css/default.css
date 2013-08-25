@@ -1,0 +1,109 @@
+/* CSS Document */
+body{padding:0px; margin:0px; background:#fff url(../images/b_body.gif) 0 0 repeat-x; color:#848484; font:10px/14px Trebuchet MS, sans-serif;}
+div, p, ul, h2, h3, h4, img{padding:0px; margin:0px;}
+ul{list-style-type:none;}
+
+.clear {clear: both; margin: 0px; height:0}
+
+p a{font:10px/14px Trebuchet MS, sans-serif; color:#f6013a; text-decoration:underline;}
+p a:hover{ color:#000; text-decoration:none;}
+
+p span.headline{font:12px/14px Trebuchet MS, sans-serif; color:#2f2f2f; font-weight:bold}
+
+#container{width:678px; margin:0 auto; position:relative}
+
+ul.bullets li{font:10px/14px Trebuchet MS, sans-serif; background:url(../images/bullet1.gif) 0 4px no-repeat; padding-left:14px; height:16px;}
+ul.bullets li a{color:#515151; text-decoration:underline;}
+ul.bullets li a:hover{color:#515151; text-decoration:none; background:#f4f6f9}
+
+/* TOP */
+
+#topPan{width:678px; position:relative; clear:both; height:86px}
+
+#topPan ul.menu{position:absolute; top:10px; left:20px; width:650px}
+#topPan ul.menu li{float:left; height:45px; margin-right:35px}
+#topPan ul.menu li a{height:45px; display:block; text-indent:-20000px; }
+#topPan ul.menu li a:hover{height:45px;}
+
+#topPan ul.menu li.home a{width:91px; background:url(../images/btn_1.gif) 0 0 no-repeat; }
+#topPan ul.menu li.home a:hover{width:91px; background:url(../images/btn_1_over.gif) 0 0 no-repeat;}
+
+#topPan ul.menu li.about a{width:76px; background:url(../images/btn_2.gif) 0 0 no-repeat; }
+#topPan ul.menu li.about a:hover{width:76px; background:url(../images/btn_2_over.gif) 0 0 no-repeat;}
+
+#topPan ul.menu li.events a{width:60px; background:url(../images/btn_3.gif) 0 0 no-repeat; }
+#topPan ul.menu li.events a:hover{width:60px; background:url(../images/btn_3_over.gif) 0 0 no-repeat;}
+
+#topPan ul.menu li.services a{width:73px; background:url(../images/btn_4.gif) 0 0 no-repeat; }
+#topPan ul.menu li.services a:hover{width:73px; background:url(../images/btn_4_over.gif) 0 0 no-repeat;}
+
+#topPan ul.menu li.gallery a{width:73px; background:url(../images/btn_5.gif) 0 0 no-repeat; }
+#topPan ul.menu li.gallery a:hover{width:73px; background:url(../images/btn_5_over.gif) 0 0 no-repeat;}
+
+#topPan ul.menu li.contacts {margin-right:0}
+#topPan ul.menu li.contacts a{width:80px; background:url(../images/btn_6.gif) 0 0 no-repeat; }
+#topPan ul.menu li.contacts a:hover{width:80px; background:url(../images/btn_6_over.gif) 0 0 no-repeat;}
+
+/* CONTENT */
+
+#content{width:678px; position:relative; clear:both; background:url(../images/b_header.jpg) 0 0 no-repeat}
+
+#logo{position:absolute; top:36px; left:32px}
+#incontent{width:632px; position:relative; padding:255px 0 0 0; margin:0 auto}
+
+#leftPan{width:189px; margin:5px 20px 0 0; float:left; display:inline}
+#rightPan{width:422px; float:left;}
+
+#news{width:182px; margin-left:4px; margin-bottom:23px}
+#news h2{height:25px; position:relative; background:url(../images/h_news.gif) 0 0 no-repeat; margin-bottom:11px}
+#news p{margin-left:7px; margin-bottom:10px}
+#news p span{ height:18px; background:url(../images/calendar.gif) 0 0 no-repeat; padding-left:35px; display:block; margin-bottom:5px; font:12px/14px Trebuchet MS, sans-serif; color:#2f2f2f; font-weight:bold; padding-top:6px}
+#news p a{font:10px/14px Tahoma, sans-serif; color:#848484; text-decoration:underline;}
+#news p a:hover{ color:#000; text-decoration:none;}
+
+#news ul.btn_morenews{width:77px; height:14px; margin-left:105px;}
+#news ul.btn_morenews li{width:77px; height:14px; text-align:center;  background:url(../images/b_btn_more.gif) 0 0 no-repeat}
+#news ul.btn_morenews li a{width:77px; height:14px;font:10px/14px Tahoma, sans-serif; color:#000; text-decoration:none;}
+#news ul.btn_morenews li a:hover{color:#b70909}
+
+#why{width:182px; margin-left:4px;  margin-bottom:23px}
+#why h2{height:25px; position:relative; background:url(../images/h_why.gif) 0 0 no-repeat; margin-bottom:11px}
+#why ul.bullets {width:175px; margin-left:5px;}
+
+#ad{width:189px; height:115px; position:relative; background:url(../images/b_ad.jpg) 0 0 no-repeat}
+#ad img{position:absolute; top:15px; left:10px}
+#ad ul.btn_ad{width:67px; height:14px; position:absolute; top:65px; left:13px}
+#ad ul.btn_ad li{width:67px; height:14px; text-align:center;  background:url(../images/b_btn_ad.gif) 0 0 no-repeat}
+#ad ul.btn_ad li a{width:67px; height:14px;font:10px/14px Tahoma, sans-serif; color:#000; text-decoration:none;}
+#ad ul.btn_ad li a:hover{color:#c92924}
+
+#welcome{width:422px; margin-bottom:25px}
+#welcome h2{height:41px; position:relative; background:url(../images/h_welcome.gif) 0 0 no-repeat;}
+#welcome p.subtitle{clear:both; border:#dadbdd 1px dashed; border-left:none; border-right:none; padding:7px 5px; margin-bottom:13px; font:11px/14px Trebuchet MS, sans-serif; color:#b5b5b5; text-transform:uppercase}
+#welcome img{float:left; margin-right:10px; margin-bottom:10px}
+#welcome #welcomeText{width:275px; float:left;  margin-bottom:10px}
+#welcome ul.bullets {margin-left:8px;}
+
+#events{width:215px; margin-right:15px; float:left}
+#events h2{height:25px; position:relative; background:url(../images/h_events.gif) 3px 0 no-repeat; margin-bottom:13px}
+.eventsTopic{width:210px; margin-bottom:15px;}
+.eventsTopic img{float:left; margin-right:12px}
+
+#services{width:190px; float:left}
+#services h2{height:25px; position:relative; background:url(../images/h_services.gif) 3px 0 no-repeat; margin-bottom:16px}
+#services p{margin-bottom:7px}
+#services p span{ min-height:30px; background:url(../images/check.gif) 0 2px no-repeat; padding-left:37px; display:block; margin-bottom:5px; font:12px/14px Trebuchet MS, sans-serif; color:#ea7d1e; }
+
+/* FOOTER */
+
+#footer{height:72px; clear:both; margin:0 auto; width:775px; margin-top:20px; background:url(../images/b_footer.gif) 0 0 repeat-x;}
+#footer p{padding: 20px 0 0 0; font:11px/16px Trebuchet MS, sans-serif; font-weight:normal; text-align:center; color:#848484;}
+#footer p span{font:11px/16px Trebuchet MS, sans-serif; }
+#footer p a{font:11px/16px Trebuchet MS, sans-serif; font-weight:normal; color:#848484; text-decoration:none; padding: 0 5px }
+#footer p a:hover{text-decoration:none; background:#848484; color:#fff}
+#sponsor{
+	width:756px;
+	margin:0 auto;
+	text-align: center;
+	padding: 10px 0px 15px 0px;
+}
